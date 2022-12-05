@@ -32,6 +32,11 @@ def leia_numero(texto):
             menu("ERRO, TENTE NOVAMENTE!")
 
 
+# a para appeding, acrescentar algo
+# w é para criar .
+# r é para leitura
+
+
 def quest(texto):
     while True:
         quest = input(f'{cor["magenta"]}{texto}')
@@ -40,8 +45,8 @@ def quest(texto):
         elif quest.strip()[0] in 'Ss':
             perg = input(f'{cor["verde"]}O que deseja? ')
             print('Vamos anotar aqui no nosso sistema para está resolvendo este problema.')
-            a = open('duvidas.txt','wt+')
-            a.write(perg)
+            a = open('duvidas.txt','a+')
+            a.write(perg+'\n')
             break
     print('Obrigado por utilizar.')
 
