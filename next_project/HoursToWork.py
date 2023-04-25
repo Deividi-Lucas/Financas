@@ -5,8 +5,8 @@ salario = float(input(
 ))
 
 hora = salario/160
-dia = hora *8 
-semana = dia *7
+dia = hora * 8
+semana = dia * 7
 
 print('Colocando uma média horaria de trabalho de 40 horas semanal.')
 
