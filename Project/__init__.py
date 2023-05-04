@@ -59,7 +59,7 @@ def simulacao():
         f'{cor["amarelobrin"]}Olá{cor["ciano"]}, meu nome é {cor["amarelobrin"]}Karla{cor["ciano"]}')
     print(f'Quero que você me responda.')
     valor = leia_numero('Deseja fazer a simulação com que número? ')
-    hora = valor / 160
+    hora = valor / 176
     dia = hora * 8
     semana = dia*7
     if valor == 0:
